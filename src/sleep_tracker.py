@@ -5,9 +5,9 @@ def plot_sleep(days, hours):
     plt.bar(days, hours, color='navy')
     plt.title("Sleep Tracker")
     plt.xlabel("Day")
-    plt.ylabel("Hours Slept")
-    plt.ylim(0, 10)
-    plt.grid(axis='y', linestyle='-.', alpha=0.3)
+    plt.ylabel("Hours Slept", rotation=0, labelpad=40)
+    plt.ylim(0, 24)
+    plt.grid(axis='y', linestyle='--', alpha=0.3)
     plt.tight_layout()
     plt.show()
 

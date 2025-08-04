@@ -2,10 +2,10 @@ import matplotlib.pyplot as plt
 
 def plot_mood(days, mood):
     plt.figure(figsize=(10, 5))
-    plt.bar(days, mood, color='teal')
+    plt.bar(days, mood, color='green')
     plt.title("Mood Tracker")
     plt.xlabel("Day")
-    plt.ylabel("Mood Level")
+    plt.ylabel("Mood Level", rotation=0, labelpad=40)
     plt.ylim(0, 7)
     plt.grid(axis='y', linestyle='--', alpha=0.3)
     plt.tight_layout()
