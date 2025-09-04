@@ -3,7 +3,7 @@ from sleep_tracker import plot_sleep
 from expense_tracker import plot_expenses
 from screentime_tracker import plot_screentime
 from productivity_tracker import plot_productivity
-
+from sugar_tracker import plot_sugar
 
 #always use plt.figure first because if you use after plt.bar, it plots two figure, it creates a bar first and then a figure.
 
@@ -21,6 +21,7 @@ def main():
     plot_expenses(days, expenses)
     plot_screentime(days, screen_hours)
     plot_productivity(days, productivity)
+    plot_sugar(days, diet)
 
 if __name__ == '__main__':
     main()
