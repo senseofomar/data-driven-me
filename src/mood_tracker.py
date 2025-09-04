@@ -7,7 +7,7 @@ def plot_mood(days, mood):
     plt.xlabel("Day")
     plt.ylabel("Mood Level", rotation=0, labelpad=40)
     plt.ylim(0, 7)
-    plt.grid(axis='y', linestyle='--', alpha=0.3)
+    plt.grid(axis = 'y', linestyle='--', alpha=0.3)
     plt.tight_layout()
     plt.show()
 
