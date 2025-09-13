@@ -1,6 +1,5 @@
 from mood_tracker import plot_mood
 from sleep_tracker import plot_sleep
-from expense_tracker import plot_expenses
 from screentime_tracker import plot_screentime
 from productivity_tracker import plot_productivity
 from sugar_tracker import plot_sugar
@@ -18,7 +17,7 @@ diet = ["No sugar", "Sugar", "Sugar", "No sugar", "No sugar", "No sugar", "Sugar
 def main():
     plot_mood(days, mood)
     plot_sleep(days, hours)
-    plot_expenses(days, expenses)
+    # plot_expenses(days, expenses)
     plot_screentime(days, screen_hours)
     plot_productivity(days, productivity)
     plot_sugar(days, diet)

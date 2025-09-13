@@ -11,7 +11,7 @@ def plot_productivity(days, productivity):
     plt.tight_layout()
     plt.show()
 
-if __name__ == '__main__':
-    sample_days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-    sample_productivity = [8, 6, 7, 5, 9, 4, 8]
-    plot_productivity(sample_days, sample_productivity)
+if __name__ =='main':
+     sample_days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+     sample_productivity = [8, 6, 7, 5, 9, 4, 8]
+     plot_productivity(sample_days, sample_productivity)
